@@ -6,7 +6,7 @@ export default function Home() {
     responsavel: '',
     telefone: '',
     bairro: '',
-    jogadores: Array(10).fill(''),
+    jogadores: Array(12).fill(''),
   })
 
   const [message, setMessage] = useState(null)
@@ -104,7 +104,7 @@ export default function Home() {
         />
         <br /><br />
 
-        <label>Jogadores (10 nomes):</label><br />
+        <label>Jogadores (12 nomes):</label><br />
         {form.jogadores.map((j, i) => (
           <input
             key={i}
