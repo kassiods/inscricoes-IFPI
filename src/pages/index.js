@@ -47,7 +47,7 @@ export default function Home() {
         responsavel: '',
         telefone: '',
         bairro: '',
-        jogadores: Array(10).fill(''),
+        jogadores: Array(12).fill(''),
       })
     } else {
       setMessage({ type: 'error', text: data.error || 'Erro desconhecido' })
